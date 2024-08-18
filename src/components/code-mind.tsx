@@ -1,5 +1,3 @@
-import './monacoWorker'
-
 import { createContext, useEffect, useState } from 'react'
 import MindContainer from './mind-container'
 import MindNode from './mind-node'

@@ -85,7 +85,7 @@ export default function MindNode({ node, parentRef, siblings, setParentChildren,
 			id: node.id,
 			value: contentRef.current?.getContent() || '',
 			parentID,
-			type: contentRef.current?.getType() || 'text',
+			type: 'text',
 			style: contentRef.current?.getStyle()
 		}
 		if (currentNode.type === 'code') currentNode.code = contentRef.current?.getCode() || ''

@@ -10,7 +10,6 @@ import { useContext, useEffect, useRef, useState } from 'react'
 import { useSelectState } from '@/hooks/useSelectState'
 import { MindContext } from './code-mind'
 import { MAX_SCALE, MIN_SCALE } from '@/consts'
-import ColorPicker from './color-picker'
 
 export default function MindControl() {
 	return (
@@ -214,7 +213,6 @@ function Brush() {
 									reset
 								</button>
 							</div>
-							<ColorPicker />
 
 							<div className='border-t border-black/5' />
 
